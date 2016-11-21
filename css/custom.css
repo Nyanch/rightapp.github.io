@@ -1,19 +1,19 @@
-/* Values
+/* Modes
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.values {
+.modes {
   background-image: url('../images/values-bg.jpg');
   background-size: cover;
   color: #fff;
   padding-bottom: 5rem;
 }
-.value-multiplier {
+.mode-multiplier {
   margin-bottom: .5rem;
   color: #11DFC7;
 }
-.value-heading {
+.mode-heading {
   margin-bottom: .3rem;
 }
-.value-description {
+.mode-description {
   opacity: .8;
   font-weight: 300;
 }
@@ -43,7 +43,12 @@
     position: absolute;
     top: -7rem;
     right: 3rem;
-    max-height: 362px;
+    max-height: 162px;
+    z-index: 3;
+  }
+  .iconmode {
+    position: absolute;
+    max-height: 82px;
     z-index: 3;
   }
   .hero-heading {
@@ -73,7 +78,12 @@
   .logo {
     top: -14rem;
     right: 5rem;
-    max-height: 510px;
+    max-height: 310px;
+  }
+  .iconmode {
+    position: absolute;
+    max-height: 182px;
+    z-index: 3;
   }
   .categories {
     padding: 15rem 0 8rem;
@@ -93,6 +103,11 @@
   }
   .logo {
     top: -16rem;
-    max-height: 615px;
+    max-height: 415px;
+  }
+  .iconmode {
+    position: absolute;
+    max-height: 282px;
+    z-index: 3;
   }
 }
