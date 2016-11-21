@@ -2,6 +2,7 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .button {
   border-radius: 60px;
+  background-color: #17927a;
 }
 
 /* Sections
@@ -36,7 +37,7 @@
 }
 .value-multiplier {
   margin-bottom: .5rem;
-  color: #11DFC7;
+  color: #17927a;
 }
 .value-heading {
   margin-bottom: .3rem;
@@ -50,9 +51,9 @@
   max-width: 80%;
 }
 
-/* Help
+/* Email
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.get-help {
+.get-email {
   border-bottom: 1px solid #ddd;
 }
 
