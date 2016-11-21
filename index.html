@@ -32,13 +32,24 @@
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
-  <div class="section hero">
+<nav class="navigation">
+  <a href="#" class="menu-icon">
+    <i class="fa fa-bars"></i>
+  </a>
+  <ul class="main-navigation" role="navigation">
+    <li><a href="#hero">Home</a></li>
+    <li><a href="#values">Modes</a></li>
+    <li><a href="#get-email">Sign up</a></li>
+  </ul>
+</nav>
+  
+  <div id="hero" class="section hero">
     <div class="container">
       <div class="row">
         <div class="one-half column">
+        <h1 class="separator"> Writing made easy.</h1>
           <h2 class="hero-heading">Right is a writing app that streamlines writing for mobile, making content producing on mobile phones hassle-free and efficient. </h4>
-          <a class="button button-primary">Write Right</a>
+          <a class="button button-primary" href="#get-email">Write Right</a>
         </div>
         <div class="one-half column phones">
           <img class="logo" src="images/LOGO.png">
@@ -47,9 +58,10 @@
     </div>
   </div>
 
-  <div class="section values">
+  <div id="values" class="section values">
     <div class="container">
       <div class="row">
+        <h2 class="separator"> It has 3 modes you can switch interchangeably to and from, thus streamlining your workflow. </h2>
         <div class="one-third column value">
           <p><img class="icon" src="images/wri.png"></p>
           <h2 class="value-multiplier">Writing</h2>
@@ -72,7 +84,7 @@
     </div>
   </div>
 
-  <div class="section get-email">
+  <div id="get-email" class="section get-email">
     <div class="container">
       <h3 class="section-heading">Interested? Input your email and we'll inform you once it's out!</h3>
       <div class="row">
@@ -83,6 +95,15 @@
     </div>
   </div>
 
+  <section class="footer u-full-width">
+  <div class="container">
+    <div class="row">
+      <div class="twelve columns">
+        <h5>The Lemonade Stand.</h5>
+      </div>
+    </div>
+  </div>
+</section>
 
 
 
