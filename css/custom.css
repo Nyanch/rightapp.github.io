@@ -17,7 +17,9 @@
   opacity: .8;
   font-weight: 300;
 }
-
+.logos {
+  position: relative;
+}
 /* Categories
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .categories {
@@ -38,10 +40,9 @@
   height: 165px;
 }
 .logo {
-  position: absolute;
-  right: 3rem;
-  max-height: 162px;
-  z-index: 3;
+  position: relative;
+  max-width: 80%;
+  margin: 3rem auto -12rem;
 }
 .iconmode {
   position: absolute;
