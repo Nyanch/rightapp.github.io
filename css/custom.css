@@ -29,6 +29,29 @@
   margin-bottom: 4rem;
 }
 
+.section {
+  padding: 12rem 0 11rem;
+}
+.hero {
+  padding-bottom: 12rem;
+  text-align: left;
+  height: 165px;
+}
+.logo {
+  position: absolute;
+  right: 3rem;
+  max-height: 162px;
+  z-index: 3;
+}
+.iconmode {
+  position: absolute;
+  max-height: 82px;
+  z-index: 3;
+}
+.hero-heading {
+  font-size: 2.4rem;
+}
+
 /* Bigger than 550 */
 @media (min-width: 550px) {
   .section {
@@ -41,7 +64,6 @@
   }
   .logo {
     position: absolute;
-    top: -7rem;
     right: 3rem;
     max-height: 162px;
     z-index: 3;
@@ -76,7 +98,6 @@
     margin-right: auto;
   }
   .logo {
-    top: -14rem;
     right: 5rem;
     max-height: 310px;
   }
@@ -102,7 +123,6 @@
     font-size: 3.0rem;
   }
   .logo {
-    top: -16rem;
     max-height: 415px;
   }
   .iconmode {
