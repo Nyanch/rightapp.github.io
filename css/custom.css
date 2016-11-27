@@ -151,7 +151,7 @@
   background-image: url('../images/values-bg.png');
   background-size: cover;
   color: #000000;
-  padding-bottom: 5rem;
+  margin-top: .5rem;
 }
 .value-multiplier {
   margin-bottom: .5rem;
@@ -210,9 +210,9 @@
 
 /* Bigger than 750 */
 @media (min-width: 750px) {
-  .hero {
+/*  .hero {
     height: 190px;
-  }
+  } */
   .hero-heading {
     font-size: 2.6rem;
   }
@@ -230,7 +230,7 @@
   .logo {
     top: -14rem;
     right: 5rem;
-    max-height: 510px;
+    max-height: 310px;
   }
   .categories {
     padding: 15rem 0 8rem;
@@ -250,6 +250,6 @@
   }
   .logo {
     top: -16rem;
-    max-height: 615px;
+    max-height: 415px;
   }
 }
