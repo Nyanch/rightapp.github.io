@@ -138,7 +138,7 @@
 .logo {
   position: relative;
   max-width: 80%;
-  margin: 3rem auto -12rem;
+  margin: 3rem auto;
 }
 
 .logosection {
@@ -273,8 +273,8 @@
     margin-right: auto;
   }
   .logo {
-    top: -14rem;
-    right: 5rem;
+    /*top: -14rem;
+    right: 5rem;*/
     max-height: 310px;
   }
   .categories {
@@ -294,7 +294,7 @@
     font-size: 3.0rem;
   }
   .logo {
-    top: -16rem;
+/*    top: -16rem;*/
     max-height: 415px;
   }
 }
