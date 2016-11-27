@@ -145,6 +145,10 @@
   position: relative;
 }
 
+.hero-heading {
+  margin-top: 1rem;
+}
+
 /* Values
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .descript {
@@ -171,6 +175,14 @@
   position: relative;
   max-width: 80%;
 }
+
+/* Animation
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.animation {
+  background-color: #777777;
+  color: #FFFFFF;
+}
+
 
 /* Email
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
