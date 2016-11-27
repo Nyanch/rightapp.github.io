@@ -149,6 +149,10 @@
   margin-top: 1rem;
 }
 
+.topspace {
+  margin-top: 2rem;
+}
+
 /* Values
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .descript {
@@ -190,6 +194,13 @@
   border-bottom: 1px solid #ddd;
 }
 
+/* About Us
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.about-us {
+  background-color: #EEEEEE;
+  color: #000000;
+}
+
 /* Categories
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .categories {
@@ -222,6 +233,10 @@
   } */
   .hero-heading {
     font-size: 2.4rem;
+  }
+  
+  .topspace {
+  margin-top: 0rem;
   }
 }
 
