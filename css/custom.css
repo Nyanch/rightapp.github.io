@@ -150,9 +150,16 @@
 }
 
 .topspace {
-  margin-top: 2rem;
+  margin-top: 3rem;
+  padding-top: 1rem;
 }
 
+.hero-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
 /* Values
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .descript {
@@ -199,6 +206,12 @@
 .about-us {
   background-color: #EEEEEE;
   color: #000000;
+}
+
+
+.about-us-team {
+  position: relative;
+  max-width: 40%;
 }
 
 /* Categories
