@@ -3,6 +3,8 @@
 .button {
   border-radius: 60px;
   background: #17927a;
+  color: #17927a;
+  background-color: #17927a;
 }
 
 /* =Navigation
@@ -136,7 +138,7 @@
 .logo {
   position: relative;
   max-width: 80%;
-  margin: 3rem auto 1rem;
+  margin: 3rem auto -12rem;
 }
 
 .logosection {
