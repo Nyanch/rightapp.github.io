@@ -136,7 +136,11 @@
 .logo {
   position: relative;
   max-width: 80%;
-  margin: 3rem auto -12rem;
+  margin: 3rem auto 1rem;
+}
+
+.logosection {
+  position: relative;
 }
 
 /* Values
