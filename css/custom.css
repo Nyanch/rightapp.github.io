@@ -58,14 +58,14 @@
  
   text-decoration: none;
   text-transform: uppercase;
-  color: white;
+  color: black;
   font-weight: 900;
 }
  
 .navigation ul li a.current,
 .navigation ul li a:hover {
   color: #222;
-  background-color: white;
+  background-color: black;
 }
  
 .navigation .menu-icon {
@@ -132,9 +132,7 @@
 
 /* Hero
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.phones {
-  position: relative;
-}
+
 .logo {
   position: relative;
   max-width: 80%;
