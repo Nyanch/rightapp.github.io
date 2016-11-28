@@ -1,10 +1,11 @@
 /* Shared
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-.button-primary {
+.button {
   border-radius: 60px;
   background: #17927a;
   background-color: #17927a;
+  color: #ffffff;
 }
 
 /* =Navigation
