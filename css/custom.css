@@ -1,9 +1,9 @@
 /* Shared
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.button {
+
+.button-primary {
   border-radius: 60px;
   background: #17927a;
-  color: #17927a;
   background-color: #17927a;
 }
 
